@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+body {
+  background-image: url(pexels-oleg-magni-1040473.jpg);
+  background-size: cover;
+}
+.grid {
+  height: 100vh;
+}
+/* .one {
+  width: 20vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+.two {
+  width: 51vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.three {
+  width: 23vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.four{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.welcome {
+  font-family: partita;
+  font-size: 70px;
+  /* background-color: #ffffff3d; */
+  border-radius: 12px;
+  padding: 0px 20px;
+  width: 18vw;
+  color: white;
+  margin-bottom: 2vh; 
+}
+.welcome span {
+  color: rgb(187, 0, 0);
+  font-family: montserrat;
+  font-size: 30px;
+  
+}
+#clock {
+  /* background-color: #ffffff3d; */
+border-radius: 12px;
+padding:0px 20px;
+width: 18vw;
+text-align: center;
+}
+#hour {
+  font-size: 80px;
+  font-family: partita;
+  color: seashell;
+}
+#min {
+  font-size: 70px;
+
+  font-family:partita;
+  color: rgb(187, 0, 0);
+}
+input {
+    outline: none;
+    border: none;
+    width: 32vw;
+    font-family: sans-serif;
+    text-align: left;
+    padding-left: 4vh;
+    font-size: 14px;
+    background-color: #00000060;
+    transition: 0.3s;
+    border-radius: 13px;
+  height: 7vh;
+  color: rgb(215, 215,215);
+}
+input:hover,:active,:focus{
+    outline: none;
+    border-bottom-color: rgb(255, 255, 255);
+}
+input:active,:focus{
+  background-color: #ffffff70;
+  color:black
+}
+
+/* .search{
+  height: 4vh;
+  background-color: black;
+  border-radius: 12px;
+  padding: 0px 20px;
+  width: 32vw;
+} */
+a {
+  display: block;
+  text-decoration: none;
+  color: #00000080;
+  font-family: partita;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1px;
+  transition: .3s;
+}
+a:hover{
+  color:#000000;
+}
+
+.url {
+  background: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) right / 0 .1em no-repeat;
+      transition: .6s background-size;
+      background-position: left bottom;
+
+}
+.head {
+  font-family: partita;
+  font-size: 30px;
+  color: white;
+}
+.music {
+background-color: rgb(245,245,245,0.4);
+height: 17vh;
+width: 20vw;
+margin-top: 10px;
+border-radius: 14px;
+margin-right: 10px;
+padding:8vh 3vh;
+transition:.3s;
+}
+.music:hover{
+    background:#00000080;
+
+}
+
+.url:hover{
+  background-size: 100% 100em;
+}
